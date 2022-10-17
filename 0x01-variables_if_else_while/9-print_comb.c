@@ -8,7 +8,6 @@ int main(void)
 	int n;
 
 	for (n = 48; n < 50; n++)
-	{
 
 		putchar(n);
 
@@ -17,8 +16,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-}
+
 		putchar('\n');
 
 		return (0);
-}
+		}
