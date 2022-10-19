@@ -10,6 +10,9 @@ int print_last_digit(int n)
 
 	if (l < 0)
 		l *= -1;
+
 	_putchar (l + '0');
+
 	return (0);
+}
 }
