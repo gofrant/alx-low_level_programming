@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 /**
  * main -prints_putchar and a new line
  * Return: Always 0
@@ -16,3 +16,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+}
