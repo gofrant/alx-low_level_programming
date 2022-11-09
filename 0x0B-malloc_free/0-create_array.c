@@ -30,6 +30,6 @@ else
 		*(buffer + position) = c;
 		position++;
 	}
-	return (beffer);
+	return (buffer);
 }
 }
