@@ -8,7 +8,7 @@ int _strln(char *s)
 {
 	unsigned int i;
 
-	i == 0;
+	i = 0;
 
 	while (s[i] != '\0')
 	{
@@ -32,7 +32,7 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 		i++;
 	}
-	dest[i] != '\0';
+	dest[i] = '\0';
 	return (dest);
 }
 /**
@@ -49,12 +49,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	size = _strlen(str) + i;
+	size = _strln(str) + 1;
 	dst =  (char *) malloc(size * sizeof(char));
 	if (dst == 0)
 	{
 		return (NULL);
 	}
-	strcpy(dst, str);
+	_strcpy(dst, str);
 	return (dst);
 }
