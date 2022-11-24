@@ -1,11 +1,11 @@
 #include"lists.h"
 /**
- * add_node - addes new node
+ * add_node_end - addes new node
  * @head: head of list
  * @str: node to be add
  * Return: on success the list if failed Null
  */
-list_t *add_node_end(list_t **head, const char *str);
+list_t *add_node_end(list_t **head, const char *str)
 {
 	char *dup;
 	int len;
